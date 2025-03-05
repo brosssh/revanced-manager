@@ -138,6 +138,7 @@
     <string name="downloader_plugin_trust_dialog_title">Trust plugin?</string>
     <string name="downloader_plugin_revoke_trust_dialog_title">Revoke trust?</string>
     <string name="downloader_plugin_trust_dialog_body">By continuing you\'ve agreed to running external plugins.\n\nDo not allow any suspicious plugin(s) to be installed as they can run arbitrary code.</string>
+    <string name="downloader_plugin_revoke_trust_dialog_body">By revoking trust, this plugin will be disabled and prevented from running.</string>
     <string name="downloader_plugin_trust_dialog_signature">Signature:\n\n%s</string>
     <string name="downloader_plugin_trust_dialog_plugin">Plugin:\n%s</string>
     <string name="downloader_settings_no_apps">No downloaded apps found</string>

@@ -144,7 +144,7 @@ fun DownloadsSettingsScreen(
                             is DownloaderPluginState.Loaded -> TrustDialog(
                                 title = R.string.downloader_plugin_revoke_trust_dialog_title,
                                 body = stringResource(
-                                    R.string.downloader_plugin_trust_dialog_body,
+                                    R.string.downloader_plugin_revoke_trust_dialog_body,
                                 ),
                                 pluginName = appName,
                                 signature = signature,
