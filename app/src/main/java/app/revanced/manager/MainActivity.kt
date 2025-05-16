@@ -1,6 +1,7 @@
 package app.revanced.manager
 
 import android.content.ActivityNotFoundException
+import android.content.Context
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.activity.ComponentActivity
@@ -64,6 +65,14 @@ import org.koin.core.parameter.parametersOf
 import org.koin.androidx.viewmodel.ext.android.getViewModel as getActivityViewModel
 
 class MainActivity : ComponentActivity() {
+
+    override fun attachBaseContext(newBase: Context) {
+        val useArabicPseudolocale = true // or get from SharedPreferences/debug flag
+        val context = newBase.applyPseudolocale(useArabicPseudolocale)
+        super.attachBaseContext(context)
+    }
+
+
     @ExperimentalAnimationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

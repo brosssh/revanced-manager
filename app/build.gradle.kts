@@ -11,6 +11,9 @@ plugins {
 }
 
 android {
+    buildTypes.getByName("debug") {
+        isPseudoLocalesEnabled = true
+    }
     namespace = "app.revanced.manager"
     compileSdk = 35
     buildToolsVersion = "35.0.1"

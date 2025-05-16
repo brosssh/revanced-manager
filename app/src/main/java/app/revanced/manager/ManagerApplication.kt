@@ -24,6 +24,16 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.androidx.workmanager.koin.workManagerFactory
 import org.koin.core.context.startKoin
+import android.content.Context
+import android.content.res.Configuration
+import java.util.Locale
+
+fun Context.applyPseudolocale(useArabic: Boolean): Context {
+    val pseudoLocale = if (useArabic) Locale("ar", "XB") else Locale("en", "XA")
+    val config = Configuration(resources.configuration)
+    config.setLocale(pseudoLocale)
+    return createConfigurationContext(config)
+}
 
 class ManagerApplication : Application() {
     private val scope = MainScope()
