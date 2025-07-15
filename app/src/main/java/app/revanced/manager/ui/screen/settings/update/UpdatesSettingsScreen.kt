@@ -16,6 +16,7 @@ import androidx.compose.ui.res.stringResource
 import app.revanced.manager.R
 import app.revanced.manager.ui.component.AppTopBar
 import app.revanced.manager.ui.component.ColumnWithScrollbar
+import app.revanced.manager.ui.component.GroupHeader
 import app.revanced.manager.ui.component.settings.BooleanItem
 import app.revanced.manager.ui.component.settings.SettingsListItem
 import app.revanced.manager.ui.viewmodel.UpdatesSettingsViewModel
@@ -50,6 +51,8 @@ fun UpdatesSettingsScreen(
                 .fillMaxSize()
                 .padding(paddingValues)
         ) {
+            GroupHeader(stringResource(R.string.manager))
+
             SettingsListItem(
                 modifier = Modifier.clickable {
                     coroutineScope.launch {
@@ -87,7 +90,7 @@ fun UpdatesSettingsScreen(
             BooleanItem(
                 preference = vm.showManagerUpdateDialogOnLaunch,
                 headline = R.string.show_manager_update_dialog_on_launch,
-                description = R.string.update_checking_manager_description
+                description = R.string.show_manager_update_dialog_on_launch_description
             )
         }
     }
