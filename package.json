@@ -7,6 +7,5 @@
   "devDependencies": {
     "@anolilab/multi-semantic-release": "^1.1.12",
     "semantic-release": "^22.0.12"
-  },
-  "ignorePrivate": false
+  }
 }

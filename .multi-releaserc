@@ -1,4 +1,5 @@
 {
+"ignorePrivate": false,
   "branches": ["main", { "name": "dev", "prerelease": true }],
   "packages": {
     "api": {
