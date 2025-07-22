@@ -1,15 +1,6 @@
 {
-  "name": "test.revanced.revanced-manager-api",
+  "name": "app.revanced.revanced-manager-api",
   "private": false,
-  "release": {
-    "tagFormat": "api@v${version}",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/git"
-    ]
-  },
   "devDependencies": {
     "@anolilab/multi-semantic-release": "^1.1.10",
     "@saithodev/semantic-release-backmerge": "^4.0.1",

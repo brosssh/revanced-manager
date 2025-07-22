@@ -1,0 +1,9 @@
+{
+  "branches": ["main", { "name": "dev", "prerelease": true }],
+  "packages": {
+    "api": {
+      "tagFormat": "api@v${version}",
+      "releaseConfig": "./api/release-api.json"
+    }
+  }
+}
