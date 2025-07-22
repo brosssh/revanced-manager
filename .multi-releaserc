@@ -6,8 +6,8 @@
       "releaseConfig": "./api/release-api.json"
     },
     "app": {
-          "tagFormat": "v${version}",
-          "releaseConfig": "./app/release-api.json"
+        "tagFormat": "v${version}",
+        "releaseConfig": "./app/release-api.json"
     }
   }
 }

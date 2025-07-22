@@ -1,6 +1,6 @@
 {
   "name": "app.revanced.manager",
-  "private": false,
+  "private": true,
   "devDependencies": {
     "@anolilab/multi-semantic-release": "^1.1.10",
     "@saithodev/semantic-release-backmerge": "^4.0.1",
