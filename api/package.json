@@ -1,5 +1,5 @@
 {
-  "name": "app.revanced.revanced-manager-api",
+  "name": "test.revanced.revanced-manager-api",
   "private": false,
   "release": {
     "tagFormat": "api@v${version}",
