@@ -4,6 +4,10 @@
     "api": {
       "tagFormat": "api@v${version}",
       "releaseConfig": "./api/release-api.json"
+    },
+    "app": {
+          "tagFormat": "v${version}",
+          "releaseConfig": "./app/release-api.json"
     }
   }
 }
