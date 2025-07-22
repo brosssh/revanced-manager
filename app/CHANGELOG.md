@@ -1,3 +1,10 @@
+## app.revanced.manager [1.0.1](https://github.com/brosssh/revanced-manager/compare/app.revanced.manager@1.0.0...app.revanced.manager@1.0.1) (2025-07-22)
+
+
+### Bug Fixes
+
+* Set tag format ([4ae13e8](https://github.com/brosssh/revanced-manager/commit/4ae13e85be9b5e493fa4c674c467d490fadcf3d2))
+
 # app.revanced.manager 1.0.0 (2025-07-16)
 
 
